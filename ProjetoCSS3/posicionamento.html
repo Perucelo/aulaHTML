@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <title>Posicionamento (static, relative, absolute e fixed)</title>
+    <meta charset="UTF-8">
+    
+    <style type="text/css">
+        body{
+            background: #007fc7;
+        }
+        h1{
+            position: static;
+        }
+        p{
+            width: 300px;
+            position: static;
+        }
+
+        .relative{
+            position: relative;
+            border: 1px solid red;
+
+        }
+
+        #Container{
+            background: #ffffff;
+            width: 800px;
+            margin 10px auto;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="Container">
+            <h1>Posicionamento</h1>
+            <p>
+                Iremos estudar como posicionar testos e conteúdos,<br>
+                para ficarem centralizados ou a esquerda ou a direita.<br>
+            </p>
+
+            <p class="relative">
+                Todos os parágrafos já tem o posicionamento statico como padrão.<br>
+                O relative precisa de um segundo comando definidno onde ele irá ficar parado
+            </p>
+
+            <p>
+
+            </p>
+    </div>
+</body>

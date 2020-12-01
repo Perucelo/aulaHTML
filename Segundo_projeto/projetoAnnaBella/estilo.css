@@ -1,0 +1,34 @@
+body{
+    background: #d2d2c1 /*url('imagens/foto1.png')*/;
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+#Principal{
+
+   /* border: 1px solid red;*/
+    width: 900px;
+    /*height: 500px;*/
+}
+
+#Menu{
+    background: #c5c5b2;
+    /*border: 1px solid red;*/
+    padding: 18px;
+}
+
+#Conteudo{
+    background: #ebebed;
+    padding: 10px;
+}
+
+#Rodape{
+    font-weight: bold;
+    text-align: center;
+}
+a{
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+  /*  border: 1px solid red;*/
+    padding: 5px;
+}
